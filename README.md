@@ -26,13 +26,20 @@ This project will explore the following subjects:
 Examining the applications of encoder-only, decoder-only, and encoder-decoder architectures. 
 
 Decoder-Only Model:
+
 •	Use Case: Decoder-only models are often employed in tasks where the output sequence is generated step by step based on some input context.
+
 •	Example: In language modeling or text generation, where the model predicts the next word in a sequence given the preceding context.
 
 Encoder-Only Model:
+
 •	Use Case: Encoder-only models are useful when the task involves understanding or encoding information from the input sequence without the need for generating a corresponding output sequence.
+
 •	Example: Sentence embeddings or document embeddings, where the goal is to represent the input text in a fixed-size vector for downstream tasks like classification.
 
 Encoder-Decoder Model:
-•	Use Case: Encoder-decoder models are common in sequence-to-sequence tasks where the input sequence is mapped to a fixed-size context vector by an encoder, and the decoder generates an output sequence based on this context.
+
+•	Use Case: Encoder-decoder models are common in sequence-to-sequence tasks where the input sequence is mapped to a fixed-size context vector by an encoder, and the decoder generates an 
+output sequence based on this context.
+
 •	Example: Machine translation, where the encoder processes the source language and the decoder generates the target language.
